@@ -63,6 +63,7 @@ if ( apply_filters( 'astra_header_profile_gmpg_link', true ) ) {
 	// astra_header_after();
 
 	astra_logo();
+	get_custom_logo();
 
 	wp_nav_menu([
 		"menu" => 3
